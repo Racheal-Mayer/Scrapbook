@@ -14,13 +14,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="Container">
-      <Link className="btn btn-outline-dark" href="/march">March</Link>
-      <Link className="btn btn-outline-dark" href="/april">April</Link>
-      <Link className="btn btn-outline-dark" href="/may">May</Link>
-      <Link className="btn btn-outline-dark" href="/june">June</Link>
-      <Link className="btn btn-outline-dark" href="/july">July</Link>
-      <Link className="btn btn-outline-dark" href="/august">August</Link>
-      <Link className="btn btn-outline-dark" href="/september">September</Link>
+      <Link className="btn btn-outline-dark" to="/march">March</Link>
+      <Link className="btn btn-outline-dark" to="/april">April</Link>
+      <Link className="btn btn-outline-dark" to="/may">May</Link>
+      <Link className="btn btn-outline-dark" to="/june">June</Link>
+      <Link className="btn btn-outline-dark" to="/july">July</Link>
+      <Link className="btn btn-outline-dark" to="/august">August</Link>
+      <Link className="btn btn-outline-dark" to="/september">September</Link>
       <Router class="routes">
       <Home path="/march" />
       <April path="/april" />
